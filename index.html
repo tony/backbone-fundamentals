@@ -2942,7 +2942,7 @@ $(<span class="st">&quot;#books&quot;</span>).<span class="fu">html</span>(<span
 <pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="dt">addBook</span>:<span class="kw">function</span>(){
     <span class="kw">var</span> formData = {};
  
-    $(<span class="st">&quot;#addBook&quot;</span>).<span class="fu">children</span>(<span class="st">&quot;input&quot;</span>).<span class="fu">each</span>(<span class="kw">function</span>(i, el){
+    $(<span class="st">&quot;#addBook div&quot;</span>).<span class="fu">children</span>(<span class="st">&quot;input&quot;</span>).<span class="fu">each</span>(<span class="kw">function</span>(i, el){
         formData[<span class="kw">el</span>.<span class="fu">id</span>] = $(el).<span class="fu">val</span>();
     });
  
@@ -2960,7 +2960,7 @@ $(<span class="st">&quot;#books&quot;</span>).<span class="fu">html</span>(<span
  
     <span class="kw">var</span> formData = {};
  
-    $(<span class="st">&quot;#addBook&quot;</span>).<span class="fu">children</span>(<span class="st">&quot;input&quot;</span>).<span class="fu">each</span>(<span class="kw">function</span>(i, el){
+    $(<span class="st">&quot;#addBook div&quot;</span>).<span class="fu">children</span>(<span class="st">&quot;input&quot;</span>).<span class="fu">each</span>(<span class="kw">function</span>(i, el){
         formData[<span class="kw">el</span>.<span class="fu">id</span>] = $(el).<span class="fu">val</span>();
     });
  
